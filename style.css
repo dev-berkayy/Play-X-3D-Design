@@ -59,6 +59,11 @@ nav {
 /* responsive 1360 */
 /* responsive 1360 */
 @media screen and (max-width: 1360px) {
+
+    .contenter2 {
+        height: auto;
+    }
+
     .container img {
         height: 550px;
         width: 920px;
@@ -100,32 +105,16 @@ nav {
     /* .container2 */
     /* .container2 */
 
-    #kutu27 #twentyseven {
-        font-size: 20px;
-    }
-
-
-    #kutu27 #çizgi2 {
-        margin: auto;
-        margin-left: 110px;
-        margin-top: 30px;
-    }
 
     .contenter2 #clients {
-        margin-top: 50px;
-        font-size: 20px;
+        margin-top: 0px;
+        font-size: 24px;
     }
 
     #five-star {
-
         font-size: 25px;
     }
 
-    #çizgi3 {
-        margin-left: 100px;
-        margin-top: 15px;
-
-    }
 
     .craft {
         height: 100%;
@@ -272,10 +261,10 @@ nav {
         display: none;
     }
 
-    #kutu68 #çizgi {
-
+    .container2 #kutu68 #çizgi {
         text-align: center;
         margin: auto;
+        width: 100px;
     }
 
     .contenter2 #clients {
@@ -283,21 +272,21 @@ nav {
         font-size: 40px;
     }
 
-    #kutu68 #çizgi {
-        width: 100px;
-    }
-
     #kutu27 #twentyseven {
         font-size: 24px;
-        width: 200px;
-        margin-left: 50px;
+        margin: auto;
+        margin-top: -60px;
 
+    }
+
+    #kutu27 {
+        margin: auto;
+        padding-left: 50px;
     }
 
     #kutu27 #çizgi2 {
         margin: auto;
-        margin-left: 90px;
-        margin-top: 30px;
+        margin-top: -35px;
         width: 100px;
     }
 
@@ -327,6 +316,11 @@ nav {
         margin-top: 500px;
     }
 
+    #content {
+        position: relative;
+        right: 60px;
+    }
+
     /* container2 */
 }
 
@@ -343,7 +337,6 @@ nav {
 
     nav .btns {
         width: 100px;
-        background-color: aqua;
         height: 45px;
     }
 
@@ -529,18 +522,18 @@ nav {
     }
 
     .container img {
-        height: 450px;
-        width: 650px;
+        width: 850px;
+        height: 600px;
+        margin: auto;
     }
 
     #content {
-        width: 570px;
-        height: 340px;
         display: flex;
         flex-direction: column;
         position: relative;
         top: -120px;
-        margin-left: 120px;
+        margin: auto;
+
     }
 
     h2 .fa-regular {
@@ -553,21 +546,31 @@ nav {
         display: none;
     }
 
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .btns {
+        margin: auto;
+        margin-left: -50px;
+    }
+
     nav #open-nav {
-        margin-left: 270px;
         display: block;
         font-size: 30px;
         color: white;
     }
 
     #content #sentence {
-        width: 600px;
+        width: 500px;
         font-size: 35px;
+
     }
 
     #content #sentence2 {
         font-size: 16px;
-        width: 600px;
+        width: 500px;
     }
 
     #btns2 {
@@ -654,7 +657,6 @@ nav {
 
     #craftidea {
         font-size: 30px;
-        width: 400px;
     }
 
     .virgül {
@@ -667,7 +669,7 @@ nav {
     /* container3 */
     .container3 {
         position: relative;
-        left: -20px;
+        margin: auto;
     }
 
 
@@ -783,6 +785,16 @@ nav {
 /* responsive 800 */
 /* responsive 800 */
 /* responsive 800 */
+
+@media screen and (max-width: 870px) {
+    .container img {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+
 @media screen and (max-width: 800px) {
 
     /* container */
@@ -813,7 +825,6 @@ nav {
     }
 
     nav #open-nav {
-        margin-left: 750px;
         display: block;
         font-size: 24px;
     }
@@ -845,6 +856,11 @@ nav {
         margin-top: 1400px;
     }
 
+    #icons {
+        position: relative;
+        right: 30px;
+    }
+
     .contenter2 #clients {
         font-size: 40px;
         margin-top: -45px;
@@ -857,24 +873,39 @@ nav {
 
     }
 
+    #kutu27 {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
     #kutu27 #twentyseven {
         margin: auto;
         font-size: 30px;
-        width: 400px;
+        margin-top: -25px;
     }
 
-    #kutu27 #çizgi2 {
-        margin-top: 25px;
+    #çizgi2 {
+        margin-top: -25px;
         margin: auto;
+    }
+
+    #kutu700 {
+        margin-top: 60px;
     }
 
     #kutu700 #five-star {
         font-size: 20px;
+
     }
 
     #kutu700 #çizgi3 {
-
         width: 50px;
+        margin-top: 50px;
     }
 
 
@@ -990,19 +1021,12 @@ nav {
     }
 
     .container img {
-        height: 400px;
-        width: 482px;
-        margin-left: 1px;
+        width: 100%;
+        height: 450px;
     }
 
     #content {
-        width: 570px;
-        height: 340px;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: -120px;
-        margin-left: 120px;
+        padding-left: 80px;
     }
 
     #anav {
@@ -1018,13 +1042,14 @@ nav {
     #content #sentence {
         width: 400px;
         font-size: 25px;
-        margin-left: 5px;
+
     }
 
     #content #sentence2 {
         font-size: 16px;
         width: 300px;
-        margin-left: 30px;
+
+
     }
 
     .btns {
@@ -1072,6 +1097,7 @@ nav {
         position: relative;
         left: 180px;
         top: 50px;
+
     }
 
     #count #secondgrey {
@@ -1079,6 +1105,17 @@ nav {
         position: relative;
         left: 250px;
         top: 50px;
+    }
+
+    @media screen and (max-width: 570px) {
+        .container img {
+            width: 100%;
+            height: 350px;
+        }
+
+        #content {
+            padding-left: 80px;
+        }
     }
 
     /* container2 */
@@ -1130,13 +1167,11 @@ img {
 #content {
     margin-top: 175px;
     width: 370px;
-    height: 640px;
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 50px;
-    margin-right: 100px;
     gap: 35px;
+
 }
 
 a {
@@ -1194,7 +1229,7 @@ a::after {
 }
 
 #x {
-    width: 50px;
+    width: 51px;
     border: none;
     font-size: 25px;
     display: flex;
@@ -1279,7 +1314,7 @@ h2 .fa-regular {
     margin: auto;
     height: 100%;
     border: 4px solid #ec4533;
-    margin-top: 240px;
+    margin-top: 110px;
     margin-bottom: 100px;
 }
 
@@ -1310,32 +1345,30 @@ h2 .fa-regular {
     gap: 70px;
     font-size: 50px;
     color: white;
-
+    height: auto;
 }
 
 #quen {
-    margin-top: 30px;
+    margin-top: 90px;
 
 }
 
 
 
 #clients {
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 2px;
-    margin-top: 28px;
+    margin-top: -20px;
 }
 
 #çizgi {
-    margin-left: 120px;
     width: 40px;
-    height: 3px;
+    height: 2px;
     background-color: white;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 10px;
+
 }
-
-
 
 
 
@@ -1456,7 +1489,7 @@ h2 .fa-regular {
 }
 
 .calend {
-    margin-left: 32px;
+    margin: auto;
     margin-top: 33px;
     color: white;
     text-align: center;
@@ -1469,18 +1502,18 @@ h2 .fa-regular {
     text-align: center;
     color: #fff;
     font-size: 27px;
-    margin-left: 35px;
-    margin-top: -20px;
+    margin: auto;
+    margin-top: -100px;
 
 
 }
 
 #çizgi2 {
-    margin-left: 142px;
+    margin: auto;
     width: 40px;
     height: 2px;
     background-color: white;
-    margin-top: 14px;
+    margin-top: -54px;
 }
 
 
@@ -1511,11 +1544,11 @@ h2 .fa-regular {
     text-align: center;
     color: white;
     font-size: 30px;
+    margin: auto;
 }
 
 #çizgi3 {
-
-    margin-left: 125px;
+    margin: auto;
     width: 40px;
     height: 2px;
     background-color: white;
@@ -1692,10 +1725,10 @@ h2 .fa-regular {
 
 .container3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto;
     margin-top: 100px;
-    width: 70%;
+    width: 100%;
     height: 100%;
 
 }
@@ -2094,12 +2127,18 @@ h2 .fa-regular {
 }
 
 .openbox {
+    cursor: pointer;
     width: 100%;
     background-color: #ff5943;
     border-top: 5px solid #ed4834;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.openbox:hover {
+    background-color: #ff7f6e;
+    border-radius: 10px;
 }
 
 /* Add this new rule for the flex container */
@@ -2118,6 +2157,13 @@ h2 .fa-regular {
     margin-top: 10px;
     margin-right: 30px;
     text-align: right;
+    position: relative;
+    transition: 0.2s;
+}
+
+.array:hover {
+    font-size: 32px;
+
 }
 
 .animationbox {
